@@ -117,10 +117,7 @@ int main (int argc, char ** argv)
 						abort();
 					}
 					// log to own stdout
-					if ((s = write(1, buf, count)) == -1) {
-						perror("write");
-						abort();
-					}
+					puts(buf);
 				}
 
 				if (done) {

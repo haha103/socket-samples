@@ -1,6 +1,6 @@
 CC = clang
 CFLAGS = -Wall
-LDFLAGS = 
+LDFLAGS = -lpthread
 
 SERVER_EXE = epoll-server
 CLIENT_EXE = epoll-client
